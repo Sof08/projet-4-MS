@@ -670,12 +670,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -1020,12 +1020,11 @@ h4 {
 .col-sm-6 a img {
     width: 100%;
 }
-.col-sm-12 img {
+.imagetext {
+    width: 100%;
  
 }
-.col-xs-12 img {
 
-}
 .nav > li {
     float: left;
     margin-top: 4px;
@@ -1060,14 +1059,14 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
-    /*font-size: xx-large;*/
+    color: #0F0F0F!important;
+    FONT-SIZE: 24PX;
 }
 .btn {
     color: #FFF;
 }
 p {
-    font-size: 14PX;
+    font-size: 20PX;
 }
 .bloc .container {
     padding-left: 0;
@@ -1085,6 +1084,7 @@ p {
     margin: 0 auto;
 }
 .tc-white {
+    margin-top: 40PX;
     color: white!important;
     text-shadow: 2px 2px 2px black;
     position: relative;
@@ -1096,5 +1096,12 @@ p {
 }
 .navbar-nav li a:hover{
     text-decoration: none;
-    background-color: #eee;
+    background-color: #B2B503;
+}
+.paragraphe{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    place-content: center;
 }
